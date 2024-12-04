@@ -1,0 +1,361 @@
+@font-face {
+  font-family: "WF Visual Sans";
+  src: url("../fonts/WFVisualSansVF/WFVisualSansVF.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BlinkMacSystemFont";
+  src: url("../fonts/BlinkMacSystemFont/BlinkMacSystemFont-Regular.woff")
+    format("woff2");
+}
+
+h1 {
+  font-family: "WF Visual Sans";
+}
+
+h3 {
+  font-family: "WF Visual Sans";
+}
+section {
+  padding: 135px 0;
+}
+p {
+  font-family: "BlinkMacSystemFont";
+}
+
+
+/* mobiledevelopment-process*/
+section.mobiledevelopment-process {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: bold; 
+  line-height: 70px;
+  color: white;
+}
+.title span {
+  color: red;
+}
+.border-button a {
+  position: relative;
+  background: #ab0300;
+  color: #fff;
+  border-radius: 100px;
+  padding: 9px 41px;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.border-button a:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 100%;
+  height: 44px;
+  border-radius: 100px;
+  border: 1px solid #ee0400;
+  z-index: -1;
+}
+.glowing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(238, 4, 0, 0.8);
+  box-shadow: 0 0 0 240px rgba(122, 3, 0, 0.8);
+  filter: blur(200px);
+}
+.glowing1 {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  width: 40px;
+  height: 546px;
+  border-radius: 50%;
+  background: rgba(238, 4, 0, 0.8);
+  box-shadow: 0 0 0 40px rgba(230, 0, 0, 0.8);
+  filter: blur(200px);
+}
+.serviceparagraph {
+  text-align: justify;
+  font-size: 24px;
+}
+
+.card {
+  padding: 19px;
+  border-radius: 17px;
+  background-color: #fff;
+  border: 3px solid #ab0300;
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 42px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ab0300;
+  color: #fff;
+  border-color: 1px solid #ab0300;
+}
+
+.card h3 {
+  font-size: 27px;
+  text-align: start;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.card p {
+  font-size: 0.9rem;
+
+  text-align: start;
+}
+
+@media (max-width: 500px) {
+ 
+  section.mobiledevelopment-process {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 499px;
+    
+  }
+
+  .title {
+    font-size: 1.6rem; 
+    line-height: 2rem;
+  }
+
+  .border-button a { 
+    font-size: 1.1rem; 
+    padding: 8px 25px; 
+  }
+
+  .serviceparagraph {
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+
+  .card {
+    margin-bottom: 15px; 
+  }
+
+  .card h3 {
+    font-size: 1.2rem; 
+  }
+
+  .card p {
+    font-size: 0.8rem; 
+  }
+
+  .col-md-4 {
+    max-width: 100%; 
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 1.4rem; 
+    line-height: 1.8rem;
+  }
+
+  .serviceparagraph {
+    font-size: 0.85rem; 
+  }
+
+  .card {
+    padding: 12px; 
+  }
+}
+
+/* Mobileappdevelopment */
+.Mobileappdevelopment {
+  position: relative;
+  top: 60px;
+}
+.Mobileappdevelopment p {
+  font-size: 27px;
+  color: black;
+}
+
+.imagecontent-container {
+  position: relative;
+  width: 400px;
+  top: 32px;
+  left: 46px;
+}
+.title2 {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 70px;
+  color: black;
+}
+.title2 span {
+  color: red;
+}
+.custom-accordion {
+  position: relative;
+  top: -16px;
+  left: -68px;
+  height: auto;
+}
+
+.custom-accordion .accordion-item {
+  border: none;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+  overflow: visible;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+ 
+}
+
+.custom-accordion .accordion-item .accordion-collapse.show {
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+  overflow: visible;
+
+}
+
+.custom-accordion .accordion-header .accordion-button {
+  position: relative;
+  font-size: 1rem;
+  background-color: #fefefe;
+  border: none;
+  color: #888888;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  top: 10px;
+}
+
+.custom-accordion .accordion-header .accordion-button:not(.collapsed) .number {
+  color: #ff0000 !important;
+}
+
+.custom-accordion .accordion-header .accordion-button:not(.collapsed) .accordion-body{
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+}
+
+.custom-accordion .accordion-header .accordion-button:hover .number {
+  color: #ff0000;
+}
+
+.custom-accordion .accordion-header .accordion-button .number {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.custom-accordion .accordion-header .titleaccord {
+  flex: 1;
+  font-size: 25px;
+  color: #000;
+  font-weight: 590;
+}
+
+.custom-accordion .accordion-body p {
+  background-color: #ffffff;
+  padding: 1px 37px 50px 38px;
+  font-size: 17px;
+  line-height: 1.5;
+  color: black;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  overflow: visible;
+}
+
+/* Mobile-AppDevelopmentFAQs */
+.Mobile-AppDevelopmentFAQs {
+  position: relative;
+}
+.Mobile-AppDevelopmentFAQs_heading {
+  position: relative;
+  top: -17px;
+}
+
+.Mobile-AppDevelopmentFAQs .plus-symbol {
+  font-size: 2.5rem;
+  color: #888888;
+  transition: color 0.3s ease;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-button:hover .plus-symbol {
+  color: #ff0000;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-button:not(.collapsed) .plus-symbol {
+  content: "-";
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-button::after {
+  display: none;
+}
+
+/* Accordion Button Styling */
+.Mobile-AppDevelopmentFAQs .accordion-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 1.15rem;
+  background-color: #fff;
+  border: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-button.collapsed {
+  color: #888;
+  
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-button:not(.collapsed) {
+border:none;
+  background-color: none;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-item {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #8a8686;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-button:focus {
+  box-shadow: none;
+}
+
+.Mobile-AppDevelopmentFAQs #accordionLeft .accordion-item:first-child,
+.Mobile-AppDevelopmentFAQs #accordionRight .accordion-item:first-child {
+  border-top: 1px solid #8a8686;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-body {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  padding: 20px;
+}
+
+.Mobile-AppDevelopmentFAQs .accordion-header {
+  height: auto;
+}
