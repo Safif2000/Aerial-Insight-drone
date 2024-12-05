@@ -532,10 +532,9 @@ section.aboutus-section .aboutus-details .title {
 }
 
 .certifications p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: #000;
- 
 }
 
 .certifications img {
@@ -736,7 +735,7 @@ section.services {
   background: url(../images/services/image.png) no-repeat;
   background-size: cover;
   background-position: right;
-  z-index: 0; /* Ensure the background stays below overlays */
+  z-index: 0; 
 }
 
 section.services:before {
@@ -763,7 +762,7 @@ section.services:after {
 }
 
 section.services .service-heading .title {
-  color: #fff;
+  color: #fff;  
   font-family: "trueno";
   text-align: center;
   position: relative;
